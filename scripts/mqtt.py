@@ -42,7 +42,7 @@ client.connect(host_name, port)
 # client.subscribe("/erictg96@googlemail.com/#")
 
 # Publish a message
-client.publish(root_topic+"des", "Hello World Message!")
+client.publish(root_topic+"exampleTopic", "Hello World Message!")
 
 # Loop; exit on error
 rc = 0
