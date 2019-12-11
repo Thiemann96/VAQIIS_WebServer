@@ -47,7 +47,7 @@ client.connect(host_name, port)
 
 # Publish a message
 for x in range(100):
-    client.publish(root_topic+"des", random.randint(1,100))
+    client.publish(root_topic+"exampleTopic", random.randint(1,100))
     time.sleep(1)
 # Loop; exit on error
 rc = 0
