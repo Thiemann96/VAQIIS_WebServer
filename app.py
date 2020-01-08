@@ -1,8 +1,11 @@
 from flask import Flask, render_template
+from flask_cors import CORS
 import requests
 
 
 app = Flask(__name__)
+# Allow CORS requests
+CORS(app)
 
 logger_address = '192.168.4.14'
 
