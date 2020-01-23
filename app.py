@@ -7,7 +7,7 @@ import requests
 
 app = Flask(__name__)
 CORS(app)
-logger_address = '192.168.3.30'
+logger_address = 'http://192.168.3.30'
 app.stati_folder = "static"
 
 @app.route('/')
