@@ -1,3 +1,6 @@
+"crontab -e"
+test mqtt.py and app.py for not installed dependencies
+
 @reboot sleep 45 && python3 /home/pi/Documents/vaqiis_webserver/scripts/mqtt.py &
 @reboot sleep 45 && python3 /home/pi/Documents/vaqiis_webserver/app.py &
 @reboot sleep 30 && python3 /home/pi/Documents/vaqiis_webserver/scripts/vpn.sh &
