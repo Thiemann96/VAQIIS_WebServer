@@ -2,7 +2,7 @@
 This repository contains all resources, which are needed to set up the webserver on the bike. <br>The following instructions describe how to set up the webserver and additional scripts on the Raspberry Pi . 
 
 ## Project setup
-* Cloning the Github project with  `git clone https://github.com/Thiemann96/VAQIIS_WebServer.git'.` <br>
+* Cloning the Github project with  `git clone https://github.com/Thiemann96/VAQIIS_WebServer.git.` <br>
 **_Warning:_**
 We recommend to clone the project into the "Documents" folder, so that paths in this tutorial match yours <br> (Full-Path: /home/pi/Documents/)
 
